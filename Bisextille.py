@@ -1,9 +1,9 @@
 import os
-annee=input("Saisissez une année : ")
+annee=input("Enter a year : ")
 annee=int(annee)
 
 if annee%400 == 0 or (annee%4 == 0 and annee%100 !=0):
-	print("L'année", annee,"est bisextille")
+	print("The year", annee,"is a leap year")
 else:
-	print("L'année", annee,"n'est pas une année bisextille")
+	print("The year", annee,"isn't a leap year")
 os.system("pause")	
